@@ -25,7 +25,7 @@ export function DashboardLayout() {
       <div className="w-64 bg-slate-900 text-white flex flex-col">
         <div className="p-5">
           <h1 className="text-xl font-bold tracking-wider text-emerald-400">
-            AI LEAGUE MANAGER
+            LEAGUE MANAGER
           </h1>
           <p className="text-xs text-slate-400 mt-1">Smart Admin Panel</p>
         </div>

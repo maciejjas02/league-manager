@@ -1,7 +1,7 @@
 import React from 'react';
 import { AlertTriangle, TrendingUp, UserX, CheckCircle, Activity } from 'lucide-react';
 
-// Przykładowe dane, które docelowo będą przychodzić z backendu (z modelu Isolation Forest/LOF)
+// tu backend bedzie okok
 const mockAnomalies = [
   {
     id: 1,
@@ -9,7 +9,7 @@ const mockAnomalies = [
     teamName: 'FC Orły',
     match: 'FC Orły vs. Błyskawica',
     date: '12 Paź 2026',
-    confidence: 94, // Pewność algorytmu w %
+    confidence: 94, // %
     expectedStats: { distance: '3.1 km', goals: 0.2 },
     actualStats: { distance: '8.4 km', goals: 5 },
     status: 'pending',
