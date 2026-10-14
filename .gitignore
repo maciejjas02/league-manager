@@ -11,6 +11,10 @@ node_modules
 dist
 dist-ssr
 *.local
+venv/
+__pycache__/
+*.py[cod]
+*.db
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +26,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python / Backend
+backend/venv/
+__pycache__/
+*.pyc
+*.db
